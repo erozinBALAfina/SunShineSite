@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(23, 0, 49);
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fdba00;
+    background-color:rgb(131, 73, 158);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #0f0f0f;
+  }
+  
+  .button:hover {background-color: #72367a}
+
+  .button:active {
+    background-color: #743381;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  div {
+    margin-top: 5%;
+    margin-right: 20%;
+   }
+
+#lakão {
+  margin-top: 3%;
+  width: 22%;
+  margin-left: 0%;
+  margin-right: 69%;
+}
+
+#texto-produtos {
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #fdba00;
+}
+
+#title {
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color:#fdba00;
+  font-size: 220%;
+}
+
+.produtos {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-left: 6%;
+  margin-right: 0%;
+  vertical-align: top;
+  background-color:rgb(131, 73, 158);
+  border: none;
+  border-radius: 15px;
+}
+
+nav a:hover {
+  background-color: #72367a
+}
+
+.produtos li:hover {
+  background-color: #72367a
+} 
+
+.produtos li:active {
+  background-color: #743381;
+}
+
+.produtos li:hover div {
+  font-size: 40px;
+}
+
+#camisa1 {
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color:#fdba00;
+  font-size: 220%;
+}
+
+#regatola {
+  margin-top: 2%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#preço_camisa1 {
+  margin-top: 1%;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: #fdba00;
+}
+
+#butaum {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+#preço_Shorts1 {
+  margin-top: 1%;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: #fdba00;
+}
+
+#berma {
+  margin-top: 2%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#Shorts1 {
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color:#fdba00;
+  font-size: 220%;
+}
+
+#Tenis1 {
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color:#fdba00;
+  font-size: 220%;
+}
+
+#boot {
+  margin-top: 2%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#preço_Tenis1 {
+  margin-top: 20%;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: #fdba00;
+}
+
+#lebronCABEÇA {
+  margin-left: 20%;
+  margin-right: 30%;
+  width: 20%;
+  margin-top: -40%;
+}
+
+.imagem {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.imagem h1 {
+  display: inline-block;
+  text-align: center;
+  width: 150%;
+  margin-left: 0%;
+  margin-right: 0%;
+  vertical-align: top;
+}
+
+#formulario {
+  color: #fdba00;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#creditos {
+  color: #fdba00;
+  margin-top: 14%;
+}
+
+form {
+  color: #fdba00;
+  margin: 40px 0;
+}
+
+form label {
+  margin: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form input, form textarea {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+#logocontatos {
+  margin-right: 220%;
+  margin-left: 4%;
+  width: 30%;
+}
+
+#buttonlogo{
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+.enviar {
+  width: 52.8%;
+  padding: 15px 0;
+  background: #743381;
+  color: #fdba00;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+.enviar:hover {
+  background-color: rgb(170, 108, 170);
+  cursor: pointer;
+}
+
+#cadastrocss {
+  margin-left: 20%;
+  margin-right: -30%;
+}

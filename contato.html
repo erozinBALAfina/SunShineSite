@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul id="buttonlogo">
+                <div>
+                    <a href="index.html" class="button">Home</a>
+                    <a href="contatos.html" class="button">Contato</a>
+                    <a href="produtos.html" class="button">Produtos</a>
+                </div>
+            </ul>
+        </nav>
+
+        <ul class="imagem">
+
+            <h1><img id="logocontatos" src="los-angeles-lakers-logo-1.jpg"></h1>
+            <h1><img id="lebronCABEÇA" src="st_small_507x507-pad_600x600_f8f8f8-removebg-preview.png"></h1>
+
+
+        </ul>
+
+    </header>
+
+    <main>
+        <form id="cadastrocss">
+            <label for="nomecompleto">Nome Completo</label>
+            <input id="nomecompleto" required type="text">
+
+            <label for="e_mail">E-Mail</label>
+            <input id="e_mail" placeholder="seuemail@gmail.com" required type="text">
+
+            <label for="senha">Senha do Usuário</label>
+            <input id="senha" required type="text">
+
+            <label for="número">Número de Telefone</label>
+            <input id="número" placeholder="(XX) XXXX-XXXX" required type="text">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" required rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input required type="radio" name="email" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input required type="radio" name="telefone" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">WhatsApp</label>
+                <input required type="radio" name="whatsapp" value="whatsapp" id="radio-whatsapp">
+            </div>
+            <label>
+                <input required type="checkbox" name="contato" checked id="contato"> Gostaria de receber nosso contato?
+            </label>
+            
+            <div id="SELECT">
+                <p>Qual horário prefere ser atendido?</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </div>
+
+            <input type="submit" class="enviar" value="Enviar Formulário">
+        </form>
+    </main>
+
+    <footer>
+        <p id="creditos">&copy;Copyright - KingJames - Site desenvolvido por: Ryan Frank</p>
+
+    </footer>
+
+</body>
+
+</html>

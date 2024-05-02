@@ -1,0 +1,88 @@
+body {
+    background-color:rgb(23, 0, 49);
+    color:gold;
+}
+
+body {
+    font-size: 20px;
+  }
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fdba00;
+    background-color:rgb(131, 73, 158);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #0f0f0f;
+  }
+  
+  .button:hover {background-color: #72367a}
+
+  .button:active {
+    background-color: #743381;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+#lebronzada_dankando {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 60%;
+}
+
+#textozada {
+    width: 60%;
+}
+
+#textozada2 {
+    width: 60%;
+}
+
+#textozada3 {
+    width: 60%;
+}
+
+div {
+  width: 60%;
+}
+
+#primeiro_texto {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#segundo_texto {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#befefícios_texto {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#botaum {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#lebroncalvin {
+  width: 20%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+
+}
